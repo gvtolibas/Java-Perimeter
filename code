@@ -1,0 +1,59 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        System.out.println("Activity 1 Perimeter");
+        
+        //User will input 4 numbers
+        System.out.print("Input first number: ");
+        int num1=input.nextInt();
+        
+        System.out.print("Input second number: ");
+        int num2=input.nextInt();
+        
+        System.out.print("Input third number: ");
+        int num3=input.nextInt();
+        
+        System.out.print("Input fourth number: ");
+        int num4=input.nextInt();
+        System.out.println("");
+        
+        //Perimeter Formula
+        int rectangle=2*(num1+num2);
+        int parallelogram=2*(num1+num2);
+        int triangle=num1+num2+num3;
+        int trapezoid=num1+num2+num3+num4;
+        
+        //Display the results
+        //Rectangle
+        System.out.println("Rectangle");
+        System.out.println("Perimeter: " +rectangle);
+        System.out.println("length: " +num1);
+        System.out.println("width: " +num2);
+        System.out.println("");
+        
+        //Parallelogram
+        System.out.println("Parallelogram");
+        System.out.println("Perimeter: " +parallelogram);
+        System.out.println("side a: " +num1);
+        System.out.println("side b: " +num2);
+        System.out.println("");
+        
+        //Triangle
+        System.out.println("Triangle");
+        System.out.println("Perimeter: " +triangle);
+        System.out.println("side a: " +num1);
+        System.out.println("side b: " +num2);
+        System.out.println("side c: " +num3);
+        System.out.println("");
+        
+        //Trapezoid
+        System.out.println("Trapezoid");
+        System.out.println("Perimeter: " +trapezoid);
+        System.out.println("side a: " +num1);
+        System.out.println("base 1: " +num2);
+        System.out.println("base 2: " +num3);
+        System.out.println("side c: " +num4);
+    }
+}
