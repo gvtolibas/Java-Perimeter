@@ -17,7 +17,7 @@ public class Main {
         
         System.out.print("Enter the fourth number: ");
         int num4=sc.nextInt();
-        System.out.println("");
+        System.out.println();
         
         //Perimeter Formula
         int rectangle=2*(num1+num2);
@@ -31,14 +31,14 @@ public class Main {
         System.out.println("Perimeter: " +rectangle);
         System.out.println("length: " +num1);
         System.out.println("width: " +num2);
-        System.out.println("");
+        System.out.println();
         
         //Parallelogram
         System.out.println("Parallelogram");
         System.out.println("Perimeter: " +parallelogram);
         System.out.println("side a: " +num1);
         System.out.println("side b: " +num2);
-        System.out.println("");
+        System.out.println();
         
         //Triangle
         System.out.println("Triangle");
@@ -46,7 +46,7 @@ public class Main {
         System.out.println("side a: " +num1);
         System.out.println("side b: " +num2);
         System.out.println("side c: " +num3);
-        System.out.println("");
+        System.out.println();
         
         //Trapezoid
         System.out.println("Trapezoid");
